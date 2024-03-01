@@ -3,7 +3,7 @@
 This is a web application designed to explore the latest album releases on Spotify.
 The project integrates with the Spotify API to fetch album data, including release dates, artists, and album artwork.
 
-### 💻 [Live Demo](dttncl.github.io/spotify-albums/)
+### 💻 [Live Demo](https://dttncl.github.io/spotify-albums/)
 
 ### 🛒 Features
 

@@ -1,0 +1,82 @@
+main
+    padding: 50px
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    gap: 20px
+    align-items: center
+    justify-content: center
+
+div
+    text-align: center
+    h2
+        padding: 0
+        margin: 0
+        font-size: 1.2rem
+    h3
+        padding: 0
+        margin: 0     
+        font-size: 0.8rem
+
+.container
+    display: flex
+    flex-direction: column
+    width: 270px
+    height: 370px
+    border: solid 3px transparent
+    border-radius: 20px
+    background-color: #212121
+    align-items: center
+    justify-content: space-between
+    padding: 20px 5px
+    &:hover
+        border: solid 3px #1DB954
+
+.search
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 500px
+    height: 100%
+    gap: 30px
+
+.birth-search
+    width: 200px
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 10px
+    font-size: 1.3rem
+    label
+        font-size: 1rem
+    input
+        box-sizing: border-box
+        width: 200px
+        height: 30px
+        background-color: transparent
+        color: #FFFFFF
+        border: solid 1px #FFFFFF
+        border-radius: 10px
+        padding: 5px 15px
+    div
+        margin-left: auto
+
+input[type="date"]::-webkit-calendar-picker-indicator
+    filter: invert(1)
+    &:hover
+        cursor: pointer
+
+img
+    width: 70%
+
+button
+    background-color: #1DB954
+    border: none
+    padding: 10px 20px
+    border-radius: 40px
+    font-weight: bold
+    &:hover
+        cursor: pointer
+
+#result
+    font-size: 1.2rem

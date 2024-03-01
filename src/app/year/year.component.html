@@ -1,1 +1,31 @@
-<p>year works!</p>
+<main>
+    <div class="container">
+        <div class="album-img">
+            <img [src]=album.image>
+        </div>
+        <div class="album-details">
+            <h2>{{album.name}}</h2>
+            <h3>by {{album.artist}}</h3>
+        </div>
+        <div class="album-date">
+            <h3>Release Date:</h3>
+            <h3>{{album.release_date}}</h3>
+        </div>
+        <div class="album-btn">
+            <a [href]=album.album_uri target="_blank">
+                <button>Listen Now</button>
+            </a>
+        </div>
+    </div>
+    <div class="search">
+        <h2>Share your birthdate with us, and you might stumble upon the iconic album released on that exact day!</h2>
+        <div class="birth-search">
+            <label for="birthdate">Enter Birthdate</label>
+            <input type="date" id="birthdate" #dateInput>
+            <div>
+                <button (click)="searchBirthdate(dateInput.value)">Search</button>
+            </div>
+        </div>
+        <label id="result">{{result}}</label>
+    </div>
+</main>

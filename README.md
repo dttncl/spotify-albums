@@ -1,27 +1,20 @@
-# SpotifyAlbums
+# Spotify Discover Albums
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+This is a web application designed to explore the latest album releases on Spotify.
+The project integrates with the Spotify API to fetch album data, including release dates, artists, and album artwork.
 
-## Development server
+### 💻 [Live Demo](dttncl.github.io/spotify-albums/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### 🛒 Features
 
-## Code scaffolding
+1. [Get New Album Releases by Spotify API](https://developer.spotify.com/documentation/web-api/reference/get-new-releases)
+2. Discover albums released by Year
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🛠️ Implementation
 
-## Build
+Using Spotify API, users can instantly access the newest album releases across various genres and artists. The application fetches real-time data from Spotify, ensuring that users stay up-to-date with the latest music releases. Users also have the option to explore albums released within a specific year. By selecting a desired year, the application retrieves albums released during that time frame, allowing users to discover new artists and music.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 📸 Snapshots
+<img width="500" alt="image" src="https://github.com/dttncl/spotify-albums/assets/82695034/dc5f0696-e737-48ba-902a-6d3ce35131f8">
+<img width="500" alt="image" src="https://github.com/dttncl/spotify-albums/assets/82695034/0426db58-38a2-4623-b139-c1137fc9a0cc">
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
